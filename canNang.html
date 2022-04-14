@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let weight = prompt('Enter weight: ')
+    let height = prompt('Enter height: ')
+
+    let bmi = weight / (height*height)
+    let BMI = (bmi < 18.5) ?
+        'Underweight': bmi < 25.0 ?
+            'Normal':  bmi < 30.0 ?
+                'Overweight':
+                   ' Obese'
+
+    alert(BMI);
+
+
+
+
+
+
+</script>
+</body>
+</html>
